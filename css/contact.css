@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header {
+    width: 100%;
+    padding: 34px 38px 38px 113px;
+    background-color: #9EAEC5;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    gap: 47px;
+    
+    
+}
+
+li a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E3F6F6;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    
+}
+
+header .img1 {
+    background-color: #b6a984;
+    color: #F6F5F2;
+     
+}
+
+header .img2 {
+    width: 30px;
+    
+}
+
+li a:hover {
+    color: #623932;
+    cursor: pointer;
+    
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+li a::before {
+    content: "";
+    background-color: #623932;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+}
+
+li a:hover::before {
+    content: "";
+    background-color: #623932;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+section {
+    width: 100%;
+    
+}
+
+section .beqi {
+    width: 100%;
+    height: 673px;
+    background-color: #6A7B98;
+    padding-top: 89px;
+    
+}
+
+section .beqi2 {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background: rgba(237, 240, 245, 0.68);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer1 {
+    width: 100%;
+    padding: 77px 100px 74px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #C0BA8F; 
+    margin-top: -2px;    
+}
+
+footer ul li a{
+    display: flex;   
+     
+}
+
+.text-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DDDBCB;
+}
+
+.text-text span {
+    text-decoration-line: underline;
+}
+
+i {
+    color: #E3F6F6;
+   
+}
+
+.fabicons {
+    display: flex;
+    gap: 47px;
+    font-size: 27px;
+}
+
+.fa-facebook-messenger:hover {
+    transform: scale(2);
+    color: rgb(66, 78, 243);
+}
+
+.fa-instagram:hover {
+    transform: scale(2);
+    color: rgb(255, 0, 179);
+}
+
+.fa-youtube:hover {
+    transform: scale(2);
+    color: rgb(253, 3, 3);
+}

@@ -1,0 +1,165 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@700&display=swap');
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+header {
+    width: 100%;
+    padding: 34px 38px 38px 113px;
+    background-color: #9EAEC5;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 47px;
+    
+    
+}
+
+li a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #E3F6F6;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+    
+}
+
+header .img1 {
+    background-color: #b6a984;
+    color: #F6F5F2;    
+    
+}
+
+header .img2 {
+    width: 30px;
+    
+}
+
+li a:hover {
+    color: #623932;
+    cursor: pointer;
+    
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+li a::before {
+    content: "";
+    background-color: #623932;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+}
+
+li a:hover::before {
+    content: "";
+    background-color: #623932;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    transition: 0.5s ease;
+}
+
+.sectionimg {
+    position: relative;
+    width: 100%;
+    
+    
+}
+
+h1 {
+    text-align: center;
+    position: absolute;
+    font-size: 96px;
+    font-weight: 700;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    color:transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(../images/white_abstract_background-t2.jpg);
+    -webkit-background-clip: text;
+    background-position: 200px 200px;
+    animation: back 20s linear infinite;
+    
+    
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.footer1 {
+    width: 100%;
+    padding: 77px 100px 74px 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #C0BA8F; 
+    margin-top: -3.1px;    
+}
+
+footer ul li a{
+    display: flex;   
+     
+}
+
+.text-text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #DDDBCB;
+}
+
+.text-text span {
+    text-decoration-line: underline;
+}
+
+footer i {
+    color: #E3F6F6;
+   
+}
+
+.fabicons {
+    display: flex;
+    gap: 47px;
+    font-size: 28px;
+}
+
+.fa-facebook-messenger:hover {
+    transform: scale(2);
+    color: rgb(66, 78, 243);
+}
+
+.fa-instagram:hover {
+    transform: scale(2);
+    color: rgb(255, 0, 179);
+}
+
+.fa-youtube:hover {
+    transform: scale(2);
+    color: rgb(253, 3, 3);
+}
